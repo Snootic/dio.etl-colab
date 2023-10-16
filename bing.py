@@ -8,7 +8,7 @@ from g4f.Provider import (
  
 sdw2023_api_url = 'https://sdw-2023-prd.up.railway.app'
 
-df = pd.read_csv('/home/snootic/SDW2023.csv')
+df = pd.read_csv('SDW2023.csv')
 user_ids = df['UserID'].tolist()
 
 def get_user(id):
